@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap');
+
+
+body {
+    background-image: linear-gradient(135deg, #628e75, #1a4855);    
+    margin: 0 auto;
+    padding: 15px;
+    max-width: 1200px;
+    font-family: 'poppins';
+    width: 100%;
+    height: 100%;
+    
+}
+
+header {
+    display: flex;
+    text-decoration: none;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+li {
+    display: inline-block;
+    margin: 20px;
+}
+
+h1 {
+    width: 445px;
+    height: 30px;
+    font-family: 'poppins';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #f9f9f9;
+    letter-spacing: 0.03em;
+}
+
+h2 {
+    width: 445px;
+    height: 148px;
+    font-weight: 900;
+    font-size: 68px;
+    line-height: 74.12px;
+    color: #f9f9f9;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    font-family: 'poppins';
+}
+
+aside > .text {
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #f9f9f9;
+    width: 445px;
+    height: 87px;
+    left: 165px;
+    top: 382px;
+    line-height: 29px;
+
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+}
+
+button {
+    position: relative;
+    color: #f9f9f9;
+    margin-left: 15px;
+    display: inline-block;
+    width: 0 auto;
+    padding: 2px 40px 50px;
+    height: 50px;
+    right: 25px;
+    
+}
+
+
+.btn1 {
+    background-color: #628e75;
+    transform: skew(-24deg);
+    border: solid 2px #658e76;
+    cursor: pointer;
+    align-items: center;
+    display: inline-block;
+    
+}
+
+.btn2 {
+    background-color: transparent;
+    transform: skew(-24deg);
+    border: solid 2px #658e76;
+    cursor: pointer;
+    align-items: center;
+    display: inline-block;
+}
+
+.btn1 > p {
+    transform: skew(24deg);
+    font-family: 'poppins';
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+}
+
+.btn2 > p {
+    transform: skew(24deg);
+    font-family: 'poppins';
+    font-size: 16px;
+    
+}
+
+.btn1:hover {
+    background-color: transparent;
+   
+}
+
+.btn2:hover {
+    background-color: #628e75;
+}
+
+.btn1 img {
+    width: 12px;
+}
+
+.btn2 img {
+    color: transparent;
+    width: 12px;
+}
+
+article {
+    display: inline-flex;
+    position: absolute;
+    width: 500px;
+    height: 369.84px;
+    left: 775px;
+    top: 210px;
+}
+
+#img2 {
+    position: relative;
+    margin-right: 20px;
+}
